@@ -32,6 +32,6 @@ for page in range(1, 6):
 
         file.write(
             name + ',' + year + ',' + price + ',' + engine + ',' + millage + ',' + transmission + ',' + strWheel + "\n")
-
-    time.sleep(2)
+    # უმჯობესია ეს ციფრი დაწით, თორემ ძაან დიდი ხანი მოუნდებით ინფოს წამოღებას :)
+    time.sleep(15)
 file.close()
